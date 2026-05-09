@@ -25,12 +25,12 @@ pip install numpy scikit-learn matplotlib keras tensorflow
 3.  **Run all cells sequentially.**
 
 ## Code Overview
-- `wQCmfSVvsg0g`: Imports necessary libraries (`matplotlib`, `numpy`, `sklearn.cluster.MiniBatchKMeans`).
-- `ZSrX4FpfRp-e`: Loads the MNIST dataset (`x_train`, `y_train`, `x_test`, `y_test`).
-- `y4R9i97dExCj`: Preprocessess the image data - Normalizes and reshapes the `x_train` data.
-- `kF8tb-WCNYfr`: Initializes and fits `MiniBatchKMeans` with a default of 10 clusters.
-- `hZm3upFzATzr`: Contains the logic to map cluster labels to digit values and creates `digit_values` array.
-- `bdKmCsHDAcVS`: Compares predicted vs. actual digit values for a small sample.
-- `8QwswodfAs6s`: Calculates and prints the accuracy score for 10 clusters.
-- `WXHNRO7XJ2Dm`: Iterates through various `n_clusters` values to show how accuracy changes.
-- `_Pp-c6fbjhp3`: Extracts, reshapes, and visualizes the cluster centroids as images.
+- Imports necessary libraries (`matplotlib`, `numpy`, `sklearn.cluster.MiniBatchKMeans`).
+- Loads the MNIST dataset (`x_train`, `y_train`, `x_test`, `y_test`).
+- Preprocessess the image data - Normalizes and reshapes the `x_train` data.
+- Initializes and fits `MiniBatchKMeans` with a default of 10 clusters.
+- Contains the logic to map cluster labels to digit values and creates `digit_values` array.
+- Compares predicted vs. actual digit values for a small sample.
+- Calculates and prints the accuracy score for 10 clusters.
+- Iterates through various `n_clusters` values to show how accuracy changes.
+- Extracts, reshapes, and visualizes the cluster centroids as images.
