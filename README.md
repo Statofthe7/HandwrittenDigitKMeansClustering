@@ -37,5 +37,5 @@ pip install numpy scikit-learn matplotlib keras tensorflow
 
 ## Results
 This program initially achieved 55.5% accuracy with 10 clusters. When we increased the clusters to 400, the accuracy went up to 91.2%. Here is a visualization of a few samples.
-<img width="1154" height="1055" alt="image" src="https://github.com/user-attachments/assets/5255a5d8-1d75-4cc6-b538-ae0b738fbef8" />
+<img width="654" height="555" alt="image" src="https://github.com/user-attachments/assets/5255a5d8-1d75-4cc6-b538-ae0b738fbef8" />
 
