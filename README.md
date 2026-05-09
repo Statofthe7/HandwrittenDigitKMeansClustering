@@ -13,16 +13,16 @@ This program uses K-Means clustering (MiniBatchKMeans for efficiency) to analyze
 - **Visualization:** Visualizes the centroids of the clusters as reconstructed 28x28 images, providing insight into what each cluster represents.
 
 ## Setup and Installation
-To run this notebook, you'll need the following Python libraries. You can install them using `pip`:
+To run this notebook, install the following Python libraries:
 
 ```bash
 pip install numpy scikit-learn matplotlib keras tensorflow
 ```
 
 ## How to Run
-1.  **Clone the repository or download the notebook file.**
-2.  **Open the notebook in a Jupyter environment (e.g., Google Colab, Jupyter Notebook, JupyterLab).**
-3.  **Run all cells sequentially.**
+1.  Clone the repository or download the notebook file.
+2.  Open the notebook in a Jupyter environment.
+3.  Run all cells sequentially.
 
 ## Code Overview
 - Imports necessary libraries (`matplotlib`, `numpy`, `sklearn.cluster.MiniBatchKMeans`).
@@ -34,3 +34,8 @@ pip install numpy scikit-learn matplotlib keras tensorflow
 - Calculates and prints the accuracy score for 10 clusters.
 - Iterates through various `n_clusters` values to show how accuracy changes.
 - Extracts, reshapes, and visualizes the cluster centroids as images.
+
+## Results
+This program initially achieved 55.5% accuracy with 10 clusters. When we increased the clusters to 400, the accuracy went up to 91.2%. Here is a visualization of a few samples.
+<img width="1154" height="1055" alt="image" src="https://github.com/user-attachments/assets/5255a5d8-1d75-4cc6-b538-ae0b738fbef8" />
+
