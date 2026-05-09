@@ -36,6 +36,6 @@ pip install numpy scikit-learn matplotlib keras tensorflow
 - Extracts, reshapes, and visualizes the cluster centroids as images.
 
 ## Results
-This program initially achieved 55.5% accuracy with 10 clusters. When we increased the clusters to 400, the accuracy went up to 91.2%. Here is a visualization of a few samples.
+This program initially achieved 55.5% accuracy with 10 clusters. When we increased the clusters to 400, the accuracy went up to 91.2%. Here is a visualization of a few clusters.
 <img width="454" height="355" alt="image" src="https://github.com/user-attachments/assets/5255a5d8-1d75-4cc6-b538-ae0b738fbef8" />
 
